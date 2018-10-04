@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cd004ff-c746-4240-b3fd-a54dde309e15" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/DIR/exemplo-01.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIR/exemplo-02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fopen/exemplo-01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fopen/exemplo-02.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -19,57 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Usuario.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DAO/class/Usuario.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="97" selection-start-line="97" selection-end-line="97" />
-              <folding>
-                <element signature="n#getIdUsuario#0;n#Usuario#0;n#!!top" />
-                <element signature="n#setIdUsuario#0;n#Usuario#0;n#!!top" />
-                <element signature="n#getDesLogin#0;n#Usuario#0;n#!!top" />
-                <element signature="n#setDesLogin#0;n#Usuario#0;n#!!top" />
-                <element signature="n#getDesSenha#0;n#Usuario#0;n#!!top" />
-                <element signature="n#setDesSenha#0;n#Usuario#0;n#!!top" />
-                <element signature="n#getDtCadastro#0;n#Usuario#0;n#!!top" />
-                <element signature="n#setDtCadastro#0;n#Usuario#0;n#!!top" />
-                <element signature="n#loadById#0;n#Usuario#0;n#!!top" />
-                <element signature="n#getList#0;n#Usuario#0;n#!!top" />
-                <element signature="n#search#0;n#Usuario#0;n#!!top" />
-                <element signature="n#login#0;n#Usuario#0;n#!!top" />
-                <element signature="n#setData#0;n#Usuario#0;n#!!top" />
-                <element signature="n#insert#0;n#Usuario#0;n#!!top" />
-                <element signature="n#update#0;n#Usuario#0;n#!!top" />
-                <element signature="n#__construct#0;n#Usuario#0;n#!!top" />
-                <element signature="n#__toString#0;n#Usuario#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="exemplo-01.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DIR/exemplo-01.php">
+        <entry file="file://$PROJECT_DIR$/fopen/exemplo-01.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+            <state relative-caret-position="187">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="exemplo-02.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DIR/exemplo-02.php">
+        <entry file="file://$PROJECT_DIR$/fopen/exemplo-02.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sql.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DAO/class/Sql.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="184">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -131,6 +94,8 @@
         <option value="$PROJECT_DIR$/DAO/index.php" />
         <option value="$PROJECT_DIR$/DIR/exemplo-01.php" />
         <option value="$PROJECT_DIR$/DIR/exemplo-02.php" />
+        <option value="$PROJECT_DIR$/fopen/exemplo-01.php" />
+        <option value="$PROJECT_DIR$/fopen/exemplo-02.php" />
       </list>
     </option>
   </component>
@@ -147,11 +112,11 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="800" />
-    <option name="y" value="266" />
-    <option name="width" value="848" />
-    <option name="height" value="792" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="945" />
+    <option name="y" value="342" />
+    <option name="width" value="853" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -240,7 +205,7 @@
       <workItem from="1538568651295" duration="4000" />
       <workItem from="1538568700743" duration="559000" />
       <workItem from="1538569485013" duration="7413000" />
-      <workItem from="1538654710199" duration="2745000" />
+      <workItem from="1538654710199" duration="5348000" />
     </task>
     <task id="LOCAL-00001" summary="teste de commit - treinamento\dao\index.php">
       <created>1538567701365</created>
@@ -274,20 +239,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46884000" />
+    <option name="totallyTimeSpent" value="49487000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="800" y="266" width="848" height="792" extended-state="0" />
+    <frame x="945" y="342" width="853" height="688" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012019" side_tool="true" visible="true" weight="0.05169867" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50059736" side_tool="true" visible="true" weight="0.061082024" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49879807" visible="true" weight="0.05169867" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49940264" visible="true" weight="0.061082024" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.54986876" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5495818" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
       <window_info anchor="right" id="Database" order="3" />
@@ -328,20 +293,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/namespace/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysqli/exemplo02.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/poo/login/app/controller/usuario.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -596,6 +547,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DIR/exemplo-01.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DIR/exemplo-02.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DAO/class/Usuario.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -622,17 +587,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DIR/exemplo-01.php">
+    <entry file="file://$PROJECT_DIR$/fopen/exemplo-01.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        <state relative-caret-position="187">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DIR/exemplo-02.php">
+    <entry file="file://$PROJECT_DIR$/fopen/exemplo-02.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="184">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
         </state>
       </provider>
     </entry>
