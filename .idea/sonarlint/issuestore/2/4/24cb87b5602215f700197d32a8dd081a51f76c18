@@ -1,4 +1,4 @@
 
-fphp:S112^"FDefine and throw a dedicated exception instead of using a generic one.(ςΤ¶ύÿÿÿÿ8μεΟγ,
-f	php:S1192V"JDefine a constant instead of duplicating this literal ":PASSWORD" 3 times.(€ƒπ8“±Ψγ,
-c	php:S1192U"GDefine a constant instead of duplicating this literal ":LOGIN" 3 times.(­οπ8“±Ψγ,
+dphp:S112"FDefine and throw a dedicated exception instead of using a generic one.(ςΤ¶ύÿÿÿÿ8Όϊωγ,
+a	php:S1192"GDefine a constant instead of duplicating this literal ":LOGIN" 3 times.(­οπ8Όϊωγ,
+d	php:S1192"JDefine a constant instead of duplicating this literal ":PASSWORD" 3 times.(€ƒπ8Όϊωγ,
