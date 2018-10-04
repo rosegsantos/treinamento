@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/DAO/class/Usuario.php" line="147" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cd004ff-c746-4240-b3fd-a54dde309e15" name="Default" comment="" />
+    <list default="true" id="2cd004ff-c746-4240-b3fd-a54dde309e15" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/906b4bba30611d583c40dc6ea6bafc5a212dee4e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/906b4bba30611d583c40dc6ea6bafc5a212dee4e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAO/class/Sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAO/class/Sql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAO/class/Usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAO/class/Usuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAO/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAO/index.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +21,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://C:/sistemas/treinamento/DAO/index.php">
+      <file leaf-file-name="Usuario.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DAO/class/Usuario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="346">
+              <caret line="161" selection-start-line="161" selection-end-line="161" />
+              <folding>
+                <element signature="n#getIdUsuario#0;n#Usuario#0;n#!!top" />
+                <element signature="n#setIdUsuario#0;n#Usuario#0;n#!!top" />
+                <element signature="n#getDesLogin#0;n#Usuario#0;n#!!top" />
+                <element signature="n#setDesLogin#0;n#Usuario#0;n#!!top" />
+                <element signature="n#getDesSenha#0;n#Usuario#0;n#!!top" />
+                <element signature="n#setDesSenha#0;n#Usuario#0;n#!!top" />
+                <element signature="n#getDtCadastro#0;n#Usuario#0;n#!!top" />
+                <element signature="n#setDtCadastro#0;n#Usuario#0;n#!!top" />
+                <element signature="n#getList#0;n#Usuario#0;n#!!top" />
+                <element signature="n#search#0;n#Usuario#0;n#!!top" />
+                <element signature="n#login#0;n#Usuario#0;n#!!top" />
+                <element signature="n#setData#0;n#Usuario#0;n#!!top" />
+                <element signature="n#insert#0;n#Usuario#0;n#!!top" />
+                <element signature="n#update#0;n#Usuario#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sql.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DAO/class/Sql.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -23,8 +58,11 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DAO/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="1105">
+              <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+              <folding>
+                <element signature="e#6#105#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,7 +70,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/DAO" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -68,10 +106,10 @@
         <option value="$PROJECT_DIR$/DAO/Sql.php" />
         <option value="$PROJECT_DIR$/DAO/Usuario.php" />
         <option value="$PROJECT_DIR$/DAO/config.php" />
-        <option value="$PROJECT_DIR$/DAO/class/Sql.php" />
-        <option value="$PROJECT_DIR$/DAO/class/Usuario.php" />
         <option value="C:/sistemas/treinamento/DAO/index.php" />
+        <option value="$PROJECT_DIR$/DAO/class/Sql.php" />
         <option value="$PROJECT_DIR$/DAO/index.php" />
+        <option value="$PROJECT_DIR$/DAO/class/Usuario.php" />
       </list>
     </option>
   </component>
@@ -88,11 +126,11 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="619" />
-    <option name="y" value="205" />
-    <option name="width" value="1038" />
-    <option name="height" value="742" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="767" />
+    <option name="y" value="167" />
+    <option name="width" value="1117" />
+    <option name="height" value="628" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -100,7 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,12 +153,19 @@
             <path>
               <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="DAO" type="462c0819:PsiDirectoryNode" />
+              <item name="class" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
               <item name="interface" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,6 +213,8 @@
       <workItem from="1538568530225" duration="96000" />
       <workItem from="1538568651295" duration="4000" />
       <workItem from="1538568700743" duration="559000" />
+      <workItem from="1538569485013" duration="7413000" />
+      <workItem from="1538654710199" duration="106000" />
     </task>
     <task id="LOCAL-00001" summary="teste de commit - treinamento\dao\index.php">
       <created>1538567701365</created>
@@ -188,19 +234,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36726000" />
+    <option name="totallyTimeSpent" value="44245000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="767" y="167" width="1117" height="628" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32943678" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15885417" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15885417" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
       <window_info anchor="right" id="Database" order="3" />
@@ -210,9 +255,10 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32943678" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -225,12 +271,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/DAO" />
+    </ignored-roots>
     <MESSAGE value="teste de commit - treinamento\dao\index.php" />
     <option name="LAST_COMMIT_MESSAGE" value="teste de commit - treinamento\dao\index.php" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -488,23 +537,54 @@
     <entry file="file://$PROJECT_DIR$/DAO/Sql.php" />
     <entry file="file://$PROJECT_DIR$/DAO/Usuario.php" />
     <entry file="file://$PROJECT_DIR$/DAO/teste.php" />
-    <entry file="file://$PROJECT_DIR$/DAO/class/Usuario.php" />
-    <entry file="file://$PROJECT_DIR$/DAO/class/Sql.php" />
     <entry file="file://$PROJECT_DIR$/DAO/treinamento/index.php" />
     <entry file="file://$PROJECT_DIR$/DAO/config.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DAO/index.php">
+    <entry file="file://C:/sistemas/treinamento/DAO/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state relative-caret-position="428">
+          <caret line="47" selection-start-line="47" selection-end-line="54" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/sistemas/treinamento/DAO/index.php">
+    <entry file="file://$PROJECT_DIR$/DAO/class/Sql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DAO/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+          <folding>
+            <element signature="e#6#105#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DAO/class/Usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
+          <folding>
+            <element signature="n#getIdUsuario#0;n#Usuario#0;n#!!top" />
+            <element signature="n#setIdUsuario#0;n#Usuario#0;n#!!top" />
+            <element signature="n#getDesLogin#0;n#Usuario#0;n#!!top" />
+            <element signature="n#setDesLogin#0;n#Usuario#0;n#!!top" />
+            <element signature="n#getDesSenha#0;n#Usuario#0;n#!!top" />
+            <element signature="n#setDesSenha#0;n#Usuario#0;n#!!top" />
+            <element signature="n#getDtCadastro#0;n#Usuario#0;n#!!top" />
+            <element signature="n#setDtCadastro#0;n#Usuario#0;n#!!top" />
+            <element signature="n#getList#0;n#Usuario#0;n#!!top" />
+            <element signature="n#search#0;n#Usuario#0;n#!!top" />
+            <element signature="n#login#0;n#Usuario#0;n#!!top" />
+            <element signature="n#setData#0;n#Usuario#0;n#!!top" />
+            <element signature="n#insert#0;n#Usuario#0;n#!!top" />
+            <element signature="n#update#0;n#Usuario#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

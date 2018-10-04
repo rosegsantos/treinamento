@@ -65,3 +65,7 @@ G
 DAO/index.php,9\0\906b4bba30611d583c40dc6ea6bafc5a212dee4e
 >
 DAO/config.php,b\0\b0937c980c0e70377e64d71ce49e96686221d8fb
+A
+DAO/class/Sql.php,3\e\3e8392bfa2a12c1b63e0c5957e49342363c52529
+E
+DAO/class/Usuario.php,2\4\24cb87b5602215f700197d32a8dd081a51f76c18
