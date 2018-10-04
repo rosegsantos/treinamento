@@ -60,7 +60,6 @@ class  Usuario {
         }
     }
 
-
     public static function getList(){
         /* qdo usamos o this em um metodo nós amarramos no escopo da classe
            qdo não usamos é possível chamar o metodo sem instanciar a classe*/
@@ -143,6 +142,11 @@ class  Usuario {
         $sql->query("DELETE FROM tb_usuarios WHERE idusuario = :ID", array(
             ':ID'=>$this->getIdUsuario()
         ));
+
+        $this->setIdUsuario(0);
+        $this->setDesLogin("");
+        $this->setDesSenha("");
+        $this->setDtCadastro(new DateTime());
     }
 
     public function  __construct($login="", $password=""){

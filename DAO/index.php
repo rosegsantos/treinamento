@@ -56,6 +56,7 @@ echo $aluno;
 */
 
 /*
+ * //alterar um usuaruio
 $usuario = new Usuario();
 
 $usuario->loadById(11);
@@ -65,10 +66,14 @@ $usuario->update("_professor_", "_12_");
 echo $usuario;
 */
 
+
+//deletar um usuario
 $usuario = new Usuario();
 
-$usuario->loadById(11);
+$usuario->loadById(10);
 
 $usuario->delete();
+
+echo $usuario;
 
 

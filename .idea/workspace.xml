@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cd004ff-c746-4240-b3fd-a54dde309e15" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/906b4bba30611d583c40dc6ea6bafc5a212dee4e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/906b4bba30611d583c40dc6ea6bafc5a212dee4e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAO/class/Sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAO/class/Sql.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAO/class/Usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAO/class/Usuario.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAO/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAO/index.php" afterDir="false" />
     </list>
@@ -21,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Usuario.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Usuario.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DAO/class/Usuario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="161" selection-start-line="161" selection-end-line="161" />
+            <state relative-caret-position="373">
+              <caret line="148" column="45" lean-forward="true" selection-start-line="148" selection-start-column="45" selection-end-line="148" selection-end-column="45" />
               <folding>
                 <element signature="n#getIdUsuario#0;n#Usuario#0;n#!!top" />
                 <element signature="n#setIdUsuario#0;n#Usuario#0;n#!!top" />
@@ -35,12 +31,15 @@
                 <element signature="n#setDesSenha#0;n#Usuario#0;n#!!top" />
                 <element signature="n#getDtCadastro#0;n#Usuario#0;n#!!top" />
                 <element signature="n#setDtCadastro#0;n#Usuario#0;n#!!top" />
+                <element signature="n#loadById#0;n#Usuario#0;n#!!top" />
                 <element signature="n#getList#0;n#Usuario#0;n#!!top" />
                 <element signature="n#search#0;n#Usuario#0;n#!!top" />
                 <element signature="n#login#0;n#Usuario#0;n#!!top" />
                 <element signature="n#setData#0;n#Usuario#0;n#!!top" />
                 <element signature="n#insert#0;n#Usuario#0;n#!!top" />
                 <element signature="n#update#0;n#Usuario#0;n#!!top" />
+                <element signature="n#__construct#0;n#Usuario#0;n#!!top" />
+                <element signature="n#__toString#0;n#Usuario#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -55,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DAO/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+            <state relative-caret-position="475">
+              <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
               <folding>
                 <element signature="e#6#105#0#PHP" expanded="true" />
               </folding>
@@ -108,8 +107,8 @@
         <option value="$PROJECT_DIR$/DAO/config.php" />
         <option value="C:/sistemas/treinamento/DAO/index.php" />
         <option value="$PROJECT_DIR$/DAO/class/Sql.php" />
-        <option value="$PROJECT_DIR$/DAO/index.php" />
         <option value="$PROJECT_DIR$/DAO/class/Usuario.php" />
+        <option value="$PROJECT_DIR$/DAO/index.php" />
       </list>
     </option>
   </component>
@@ -126,11 +125,11 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="767" />
-    <option name="y" value="167" />
-    <option name="width" value="1117" />
-    <option name="height" value="628" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="989" />
+    <option name="y" value="138" />
+    <option name="width" value="778" />
+    <option name="height" value="792" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -214,7 +213,7 @@
       <workItem from="1538568651295" duration="4000" />
       <workItem from="1538568700743" duration="559000" />
       <workItem from="1538569485013" duration="7413000" />
-      <workItem from="1538654710199" duration="106000" />
+      <workItem from="1538654710199" duration="758000" />
     </task>
     <task id="LOCAL-00001" summary="teste de commit - treinamento\dao\index.php">
       <created>1538567701365</created>
@@ -230,19 +229,34 @@
       <option name="project" value="LOCAL" />
       <updated>1538569202265</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dao - update e delete(teste)">
+      <created>1538654874843</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1538654874843</updated>
+    </task>
+    <task id="LOCAL-00004" summary="dao - update e delete(teste)">
+      <created>1538654967104</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1538654967104</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44245000" />
+    <option name="totallyTimeSpent" value="44897000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="767" y="167" width="1117" height="628" extended-state="0" />
+    <frame x="989" y="138" width="778" height="792" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.5013123" side_tool="true" visible="true" weight="0.05169867" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49868765" visible="true" weight="0.05169867" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.15885417" />
@@ -267,6 +281,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_DETAILS" value="true" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -275,11 +292,12 @@
       <path value="$PROJECT_DIR$/DAO" />
     </ignored-roots>
     <MESSAGE value="teste de commit - treinamento\dao\index.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="teste de commit - treinamento\dao\index.php" />
+    <MESSAGE value="dao - update e delete(teste)" />
+    <option name="LAST_COMMIT_MESSAGE" value="dao - update e delete(teste)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -555,20 +573,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DAO/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
-          <folding>
-            <element signature="e#6#105#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DAO/class/Usuario.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="161" selection-start-line="161" selection-end-line="161" />
+        <state relative-caret-position="373">
+          <caret line="148" column="45" lean-forward="true" selection-start-line="148" selection-start-column="45" selection-end-line="148" selection-end-column="45" />
           <folding>
             <element signature="n#getIdUsuario#0;n#Usuario#0;n#!!top" />
             <element signature="n#setIdUsuario#0;n#Usuario#0;n#!!top" />
@@ -578,12 +586,25 @@
             <element signature="n#setDesSenha#0;n#Usuario#0;n#!!top" />
             <element signature="n#getDtCadastro#0;n#Usuario#0;n#!!top" />
             <element signature="n#setDtCadastro#0;n#Usuario#0;n#!!top" />
+            <element signature="n#loadById#0;n#Usuario#0;n#!!top" />
             <element signature="n#getList#0;n#Usuario#0;n#!!top" />
             <element signature="n#search#0;n#Usuario#0;n#!!top" />
             <element signature="n#login#0;n#Usuario#0;n#!!top" />
             <element signature="n#setData#0;n#Usuario#0;n#!!top" />
             <element signature="n#insert#0;n#Usuario#0;n#!!top" />
             <element signature="n#update#0;n#Usuario#0;n#!!top" />
+            <element signature="n#__construct#0;n#Usuario#0;n#!!top" />
+            <element signature="n#__toString#0;n#Usuario#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DAO/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
+          <folding>
+            <element signature="e#6#105#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
