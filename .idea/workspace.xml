@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cd004ff-c746-4240-b3fd-a54dde309e15" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/upload/exemplo-01.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/exemplo-01.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3023532aef119d35c9517c4a386086535fb86e2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3023532aef119d35c9517c4a386086535fb86e2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fgets/exemplo-02.php" beforeDir="false" afterPath="$PROJECT_DIR$/fgets/exemplo-02.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="exemplo-01.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/upload/exemplo-01.php">
+        <entry file="file://$PROJECT_DIR$/download/exemplo-01.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            <state relative-caret-position="34">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -83,6 +80,7 @@
         <option value="$PROJECT_DIR$/fgets/exemplo-01.php" />
         <option value="$PROJECT_DIR$/fgets/exemplo-02.php" />
         <option value="$PROJECT_DIR$/upload/exemplo-01.php" />
+        <option value="$PROJECT_DIR$/download/exemplo-01.php" />
       </list>
     </option>
   </component>
@@ -101,8 +99,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="815" />
-    <option name="y" value="192" />
+    <option name="x" value="330" />
+    <option name="y" value="322" />
     <option name="width" value="940" />
     <option name="height" value="620" />
   </component>
@@ -123,11 +121,6 @@
               <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP" type="462c0819:PsiDirectoryNode" />
               <item name="aula-2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,7 +191,7 @@
       <workItem from="1538569485013" duration="7413000" />
       <workItem from="1538654710199" duration="14644000" />
       <workItem from="1538684457617" duration="1577000" />
-      <workItem from="1538742916077" duration="2849000" />
+      <workItem from="1538742916077" duration="5197000" />
     </task>
     <task id="LOCAL-00001" summary="teste de commit - treinamento\dao\index.php">
       <created>1538567701365</created>
@@ -232,10 +225,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63209000" />
+    <option name="totallyTimeSpent" value="65557000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="356" y="224" width="1122" height="442" extended-state="0" />
+    <frame x="655" y="459" width="940" height="620" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -245,7 +238,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49791667" weight="0.037194476" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.5410122" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.159132" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1590909" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
       <window_info anchor="right" id="Database" order="3" />
@@ -286,13 +279,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/poo/heranca.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/poo/login/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -568,8 +554,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/upload/exemplo-01.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state relative-caret-position="51">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/download/exemplo-01.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
