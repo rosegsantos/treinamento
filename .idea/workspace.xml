@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cd004ff-c746-4240-b3fd-a54dde309e15" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/download/exemplo-01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rename/exemplo-01.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="exemplo-01.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/download/exemplo-01.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projetos/arquivos/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -81,6 +81,11 @@
         <option value="$PROJECT_DIR$/fgets/exemplo-02.php" />
         <option value="$PROJECT_DIR$/upload/exemplo-01.php" />
         <option value="$PROJECT_DIR$/download/exemplo-01.php" />
+        <option value="$PROJECT_DIR$/rename/exemplo-01.php" />
+        <option value="$PROJECT_DIR$/projetos/transferencia/db/Sql.php" />
+        <option value="$PROJECT_DIR$/projetos/transferencia/model/User.php" />
+        <option value="$PROJECT_DIR$/projetos/transferencia/index.php" />
+        <option value="$PROJECT_DIR$/projetos/arquivos/index.php" />
       </list>
     </option>
   </component>
@@ -98,9 +103,9 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="330" />
-    <option name="y" value="322" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="404" />
+    <option name="y" value="411" />
     <option name="width" value="940" />
     <option name="height" value="620" />
   </component>
@@ -121,6 +126,11 @@
               <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP" type="462c0819:PsiDirectoryNode" />
               <item name="aula-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="projetos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,7 +201,7 @@
       <workItem from="1538569485013" duration="7413000" />
       <workItem from="1538654710199" duration="14644000" />
       <workItem from="1538684457617" duration="1577000" />
-      <workItem from="1538742916077" duration="5197000" />
+      <workItem from="1538742916077" duration="10366000" />
     </task>
     <task id="LOCAL-00001" summary="teste de commit - treinamento\dao\index.php">
       <created>1538567701365</created>
@@ -225,10 +235,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65557000" />
+    <option name="totallyTimeSpent" value="70726000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="655" y="459" width="940" height="620" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -238,7 +248,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49791667" weight="0.037194476" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.5410122" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1590909" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14427084" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
       <window_info anchor="right" id="Database" order="3" />
@@ -275,67 +285,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/poo/login/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="79" column="85" selection-start-line="79" selection-start-column="85" selection-end-line="79" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poo/login/inicio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poo/login/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poo/login/app/core/database.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poo/login/app/dao/usuarioDao.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poo/login/app/model/usuarioModel.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Admin-Login/104 - Admin - Login/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poo/login/app/controller/usuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polimorfismo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DelRey.php" />
-    <entry file="file://$PROJECT_DIR$/autoload.php" />
-    <entry file="file://$PROJECT_DIR$/classeAbstrata.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autoload/Automovel.php" />
     <entry file="file://$PROJECT_DIR$/autoload/DelRey.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -559,10 +512,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rename/exemplo-01.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/download/exemplo-01.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Configurando-Autoload-de-Nossas-Classes.zip/100 - Configurando Autoload de Nossas Classes/hcodebr/php-classes/src/DB/Sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Configurando-o-Projeto.zip/99 - Configurando o Projeto/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Admin-Login (1).zip/104 - Admin - Login/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Sistemas-desenvolvimento/acesso/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projetos/transferencia/db/Sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#176#335#0#PHP" />
+            <element signature="e#338#507#0#PHP" />
+            <element signature="e#510#609#0#PHP" />
+            <element signature="e#612#772#0#PHP" />
+            <element signature="e#775#988#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projetos/transferencia/model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#26#36#0#PHP" expanded="true" />
+            <element signature="e#70#1187#0#PHP" />
+            <element signature="e#125#243#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Classe-Page-para-o-Template.zip/101 - Classe Page para o Template/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projetos/transferencia/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+            <element signature="e#112#123#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projetos/arquivos/Page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projetos/arquivos/Model.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projetos/arquivos/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
