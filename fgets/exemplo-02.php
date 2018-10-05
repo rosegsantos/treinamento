@@ -6,17 +6,15 @@
  * Time: 14:48
  */
 
-$filename = "logo.png";
+$filename = "logo.jpg";
 
 $base64 = base64_encode(file_get_contents($filename));
 
-
 $fileinfo = new finfo(FILEINFO_MIME_TYPE);
-
 
 $mimetype = $fileinfo->file($filename);
 
-$base64encode =  "data:" .$mimetype. ";base64," . $base64;
+$base64encode =  "data:" . $mimetype . ";base64," . $base64;
 
 ?>
 
