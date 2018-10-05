@@ -87,3 +87,17 @@ D
 fgets/exemplo-01.php,2\7\27e7709e725a54b625a00ebae1a9195a11eded42
 D
 fgets/exemplo-02.php,e\3\e3023532aef119d35c9517c4a386086535fb86e2
+E
+rename/exemplo-01.php,7\9\792fc3068508541d102b0e15aaedbac4944cb037
+G
+download/exemplo-01.php,7\4\7449146666b745986c7c59cb022201d033dc7cc7
+K
+projetos/arquivos/index.php,6\9\6924136b2f12c2a7f41b0c9b3bcab63d1e1cebab
+E
+upload/exemplo-01.php,9\3\9311a17e0a6cc10cfae024aeba46f8af167e06af
+M
+projetos/arquivos/app/Sql.php,6\d\6db3d0949031bb0170cdf2a2cb2158df8cb1c7ae
+P
+ projetos/arquivos/app/upload.php,3\f\3f02ed8fc1c26d80cdcedf29e73102e6560e5173
+S
+#projetos/arquivos/app/functions.php,a\8\a888ee5a3add5dfa95775860cefd8dd323c709e6

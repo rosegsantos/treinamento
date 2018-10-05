@@ -1,7 +1,5 @@
 <?php 
 
-namespace Hcode\DB;
-
 class Sql {
 
 	const HOSTNAME = "127.0.0.1";
