@@ -1,0 +1,14 @@
+
+a	php:S1126""EReplace this "if-then-else" statement by a single "return" statement.(•‰âæ8Üô”Óå,
+`php:S112U"FDefine and throw a dedicated exception instead of using a generic one.(ÅŸâZ8İÏ£Çå,
+@php:S125¤"Remove this commented out code.(ô¯ìíüÿÿÿÿ8šïÒÏå,
+=php:S905y""Remove or refactor this statement.(óÊñ8È£±Ñå,
+M	php:S1172t"1Remove the unused function parameter "$fileName".(°úÍò8‘ºÑå,
+j	php:S3699y"NRemove this use of the output from var_dump; var_dump doesn't return anything.(óÊñ8È£±Ñå,
+`php:S1125"FDefine and throw a dedicated exception instead of using a generic one.(ÅŸâZ8ØÇ‡Ôå,
+`	php:S1126d"EReplace this "if-then-else" statement by a single "return" statement.(æÒf8£»ÌÑå,
+b	php:S11921"FDefine a constant instead of duplicating this literal "<br/>" 3 times.(áÎõ½8ØÇ‡Ôå,
+a	php:S11925"FDefine a constant instead of duplicating this literal "error" 4 times.(ÅŸâZ8®òˆÔå,
+aphp:S112F"FDefine and throw a dedicated exception instead of using a generic one.(˜ÖËÅ8İÏ£Çå,
+;php:S125€"Remove this commented out code.(·ı¶¾8‹Ö¹Ğå,
+:php:S125"Remove this commented out code.(©¬É8ˆ—Ôå,

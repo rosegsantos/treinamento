@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/DAO/Sql.php">
           <value>
             <set />
@@ -209,6 +214,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/poo/login/inicio.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/projetos/arquivos/app/Functions.php">
           <value>
             <set />
           </value>

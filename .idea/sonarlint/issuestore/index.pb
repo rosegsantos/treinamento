@@ -101,3 +101,5 @@ P
  projetos/arquivos/app/upload.php,3\f\3f02ed8fc1c26d80cdcedf29e73102e6560e5173
 S
 #projetos/arquivos/app/functions.php,a\8\a888ee5a3add5dfa95775860cefd8dd323c709e6
+S
+#projetos/arquivos/app/Functions.php,a\4\a4a1077e7da5cfe093f894350d67209409e9f391

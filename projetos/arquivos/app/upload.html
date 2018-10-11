@@ -5,21 +5,46 @@
     <title>Upload de Arquivos</title>
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+
 </head>
 
 <body>
     <div class="limiter">
-    <div class="container-base">
-        <div class="wrap-base p-t-10 p-b-40">
-            <h3>Upload</h3>
-            <form method="POST" action="validaUpload.php" enctype="multipart/form-data">
+        <div class="container-base">
+            <div class="wrap-base p-t-10 p-b-40">
+                <h3>Upload</h3>
+                <form method="POST" action= "upload.php" enctype="multipart/form-data">
+
 				<input type="file" name="fileUpload">
+
                 <div>
-                    <button type="submit">Confirmar</button>
+                    <button type="submit">Importar</button>
                 </div>
 
-            </form>
+                 <div>
+                     <select name="exemplo">
+                         <option>Exemplo 1</option>
+                         <option>Exemplo 2</option>
+                         <option>Exemplo 3</option>
+                     </select>
+                 </div>
 
+
+                 <div>
+                     <?php
+                            echo "data: ' . date('m.d.y');
+                     ?>
+                 </div>
+
+
+
+
+            </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
 

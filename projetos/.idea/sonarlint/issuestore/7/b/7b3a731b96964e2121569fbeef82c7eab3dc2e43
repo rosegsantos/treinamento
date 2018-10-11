@@ -1,0 +1,17 @@
+
+Pphp:S121q"0Add curly braces around the nested statement(s).(ÌŠå…ûÿÿÿÿ8ë¤¡æ,
+Kphp:S121u"0Add curly braces around the nested statement(s).(·ğş»8¡Ü’¡æ,
+>	php:S1125$")Remove the literal "false" boolean value.(Âå­©
+K	php:S1481c"*Remove this unused "$data" local variable.(šÛ¶üÿÿÿÿ8ÜÀ†¡æ,
+Pphp:S121x"0Add curly braces around the nested statement(s).(£Œ“³ıÿÿÿÿ8Îß“¡æ,
+Pphp:S121r"0Add curly braces around the nested statement(s).(Î€‚úıÿÿÿÿ8Êæ‘¡æ,
+=	php:S1125$"(Remove the literal "true" boolean value.(Âå­©
+>	php:S1125X")Remove the literal "false" boolean value.(İø¥è
+Pphp:S121s"0Add curly braces around the nested statement(s).(Úòêçüÿÿÿÿ8Êæ‘¡æ,
+Pphp:S121p"0Add curly braces around the nested statement(s).(äŒ£¨øÿÿÿÿ8à²Š¡æ,
+Iphp:S121("0Add curly braces around the nested statement(s).(„¶áìøÿÿÿÿ
+p	php:S3776^"TRefactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.(òØË¨8Êæ‘¡æ,
+Kphp:S121t"0Add curly braces around the nested statement(s).(çˆ´8¡Ü’¡æ,
+Pphp:S121w"0Add curly braces around the nested statement(s).(ÉÜºšùÿÿÿÿ8¡Ü’¡æ,
+Pphp:S121v"0Add curly braces around the nested statement(s).(•º”¢üÿÿÿÿ8¡Ü’¡æ,
+=	php:S1125X"(Remove the literal "true" boolean value.(İø¥è
