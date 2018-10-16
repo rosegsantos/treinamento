@@ -6,45 +6,107 @@
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <style>
+        .fileUpload {
+            display: none;
+        }
 
+        .file {
+            line-height: 30px;
+            height: 30px;
+            border: 1px solid #A7A7A7;
+            padding: 5px;
+            box-sizing: border-box;
+            font-size: 15px;
+            vertical-align: middle;
+            width: 300px;
+        }
 
+        .btn {
+            border: 2px solid grey;
+            box-sizing: border-box;
+            padding: 2px 10px;
+            background-color: white;
+            color: black;
+            height: 32px;
+            font-size: 13px;
+            font-weight: bold;
+            vertical-align: middle;
+
+            cursor : pointer;
+
+        }
+
+        .btn:hover {
+            background-color: #CFCFCF;
+            color : #0000EE;
+        }
+
+        .file{
+            font-size: 12px;
+            border-color: white;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="limiter">
-        <div class="container-base">
-            <div class="wrap-base p-t-10 p-b-40">
-                <h3>Upload</h3>
-                <form method="POST" action= "upload.php" enctype="multipart/form-data">
 
-				<input type="file" name="fileUpload">
+<div class="limiter">
+    <div class="container-base">
+        <div class="wrap-base p-t-10 p-b-40">
+            <h3>Upload</h3>
+            <form method="POST" action= "upload.php" enctype="multipart/form-data">
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                <input type="file" name="fileUpload" id="fileUpload" class="fileUpload">
+                <input type="button" class="btn" value="Selecionar o Arquivo" required>
+                <input type="text" name="file" id="file" class="file" placeholder="Nome do Arquivo Selecionado" readonly="readonly">
+
+
+                <div>
+                    <?php
+                            require_once("class/Functions.php");
+                            require_once("config.php");
+
+                            $data = Functions::retornarCompetencia();
+                          ?>
+                    <select  required name="competencia">
+                        <option value="" disabled selected hidden>Compentência...</option>
+                        <?php
+
+                                    foreach ($data as $competencia) {
+                                        echo "<option value=\"" .$competencia. "\">" . $competencia . "</option>";
+                        }
+                        ?>
+                    </select>
+                </div>
 
                 <div>
                     <button type="submit">Importar</button>
                 </div>
 
-                 <div>
-                     <select name="exemplo">
-                         <option>Exemplo 1</option>
-                         <option>Exemplo 2</option>
-                         <option>Exemplo 3</option>
-                     </select>
-                 </div>
-
-
-                 <div>
-                     <?php
-                            echo "data: ' . date('m.d.y');
-                     ?>
-                 </div>
-
-
-
 
             </form>
-            </div>
         </div>
     </div>
+
+
+</div>
+<script>
+    var $input    = document.getElementById('input-file'),
+        $fileName = document.getElementById('file-name');
+
+    $input.addEventListener('change', function(){
+        $fileName.textContent = this.value;
+    });
+</script>
+
+
+
 </body>
 </html>
+
 

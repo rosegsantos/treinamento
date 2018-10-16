@@ -13,3 +13,9 @@ G
 arquivos/app/config.php,1\5\15eaa0edce76d768694ac69f1b0795003b651d48
 O
 arquivos/app/class/Receitas.php,2\5\256752487e3d06a95934c157374ec5efb940d7e1
+H
+arquivos/app/teste2.html,8\a\8a6fc363a558559f92b8852415e1a7da41965ec7
+I
+arquivos/app/css/main.css,e\e\eec21c417216becd9f4419adc7e3efc963bfacec
+F
+arquivos/app/teste4.js,9\c\9ce19b5124e29c51f8e9b60bc8e1153d77f75a97

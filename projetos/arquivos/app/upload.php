@@ -63,9 +63,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $alert = "Arquivo Inválido!";
     }
     echo "<div class='mensagem'>$alert</div>";
-
-
-
 }
 
 

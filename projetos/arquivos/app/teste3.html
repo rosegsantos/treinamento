@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload de Arquivos</title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <style>
+        select:invalid { color: gray; }
+
+        input[type=submit] {
+            display: none;
+        }
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+<div class="limiter">
+    <div class="container-base">
+        <div class="wrap-base p-t-10 p-b-40">
+            <h3>Upload</h3>
+            <form method="POST" action= "upload.php" enctype="multipart/form-data">
+
+
+                <input type="file" name="fileUpload" required>
+
+                <div>
+                    <?php
+                            require_once("class/Functions.php");
+                            require_once("config.php");
+
+                            $data = Functions::retornarCompetencia();
+                          ?>
+                    <select  required name="competencia">
+                        <option value="" disabled selected hidden>Compentência...</option>
+                        <?php
+
+                                    foreach ($data as $competencia) {
+                                        echo "<option value=\"" .$competencia. "\">" . $competencia . "</option>";
+                        }
+                        ?>
+                    </select>
+                </div>
+
+
+
+                <div>
+                    <button type="submit">Importar</button>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
+
+

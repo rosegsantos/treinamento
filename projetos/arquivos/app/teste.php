@@ -1,35 +1,23 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: rose
- * Date: 11/10/2018
- * Time: 11:31
- */
-
-
-$estados = array(
-    'SP'=>'São Paulo',
-    'RJ'=>'Rio de Janeiro',
-    'MG'=>'Minas Gerais'
-);
-$select_estado = $_GET['select_estado']; // não precisa colocar na sessão aqui
-?>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-        <title>teste</title>
-        <form action="teste.php">
-            Nome<input type="text" name="text_nome">
-            <br>
-            Estado
-            <select name="select_estado" id="select_estado">
-
-                <?php foreach($estados as $sigla=>$nome){ ?>
-                <option value="<?php echo $sigla; ?>" <?php echo ($sigla==$select_estado) ?'selected="selected"':''; ?>><?php echo $nome; ?></option>
-                <?php } ?>
-            </select>
-            <br> <br> <br>
-            <input type="submit" value="Enviar">
-        </form>
+    <meta charset="UTF-8">
+    <title>Upload de Arquivos</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
+
+<body>
+<select name="competencia">
+    <?php
+    require_once("class/Functions.php");
+    require_once("config.php");
+
+    $data = Functions::retornarCompetencia();
+
+    foreach ($data as $competencia) {
+        echo '<option value="'.$competencia.'">'.$competencia.'</option>';
+    }
+    ?>
+</select>
+</body>
 </html>

@@ -2,29 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Teste 2</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
+
 <body>
-    <?
-        var i, currentYear, startYear, endYear, newOption, dropdownYear;
-            dropdownYear = document.getElementById("dropdownYear");
+    <?php
+        require_once("class/Functions.php");
+        require_once("config.php");
 
-        currentYear = (new Date()).getFullYear();
-        startYear = currentYear - 4;
-        endYear = currentYear + 3;
-
-        for (i=startYear;i<=endYear;i++) {
-            newOption = document.createElement("option");
-            newOption.value = i;
-            newOption.label = i;
-            if (i == currentYear) {
-                newOption.selected = true;
-            }
-            dropdownYear.appendChild(newOption);
-        }
+        $data = Functions::retornarCompetencia();
     ?>
-
-
-
+    <select name="competencia">
+        <?php
+        foreach ($data as $competencia) {
+            echo "<option value=\"" .$competencia. "\">" . $competencia . "</option>";
+        }
+        ?>
+    </select>
 </body>
 </html>

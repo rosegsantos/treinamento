@@ -68,6 +68,11 @@ class Functions
         return $data;
     }
 
+    public static function retornarNomeArquivo($fileTmpFullPath){
+        $fileName = $_FILES[$fileTmpFullPath]["name"];
+
+    }
+
     public static function transferirArquivo($tmpPath, $dirUploads, $destination){
 
         /*
@@ -89,7 +94,6 @@ class Functions
 
 
     }
-
 
     public function gravarFontesReceitas($filePath, $competencia){
 
@@ -131,5 +135,27 @@ class Functions
         // fechar arquivo
         fclose($file);
     }
+
+    static function retornarCompetencia(){
+        $year = array();
+        $current_year = date("Y");
+
+        for($i=$current_year-1; $i<=$current_year+1; $i++){
+            array_push($year, $i);
+        }
+
+        $month = array('01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12');
+        $data = array();
+
+        for ($i=0; $i<count($year); $i++){
+            for ($y=0; $y<count($month); $y++){
+                array_push($data, $year[$i] . $month[$y] );
+            }
+        }
+
+        return $data;
+    }
+
+
 }
 

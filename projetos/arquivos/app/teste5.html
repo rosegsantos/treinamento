@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload de Arquivos</title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <style>
+        .fileUpload {
+            display: none;
+        }
+
+        .file {
+            line-height: 30px;
+            height: 30px;
+            border: 1px solid #A7A7A7;
+            padding: 5px;
+            box-sizing: border-box;
+            font-size: 15px;
+            vertical-align: middle;
+            width: 300px;
+        }
+        .btn {
+            border: grey;
+            box-sizing: border-box;
+            padding: 2px 10px;
+            background-color: white;
+            color: #0000EE;
+            height: 32px;
+            font-size: 13px;
+            vertical-align: middle;
+
+            cursor : pointer;
+
+
+        }
+
+        .btn:hover {
+            background-color: #CFCFCF;
+            color : black;
+        }
+
+        .file{
+            font-size: 12px;
+            border-color: white;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <h3>Upload</h3>
+    <img method="POST" action= "upload.php" enctype="multipart/form-data">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <input type="file" name="fileUpload" id="fileUpload" class="fileUpload">
+
+        <input type="button" class="btn"  value="Selecionar o Arquivo" required>
+        <input type="text" name="file" id="file" class="file" placeholder="Arquivo" readonly="readonly">
+
+
+        <div>
+            <?php
+                            require_once("class/Functions.php");
+                            require_once("config.php");
+
+                            $data = Functions::retornarCompetencia();
+                          ?>
+            <select  required name="competencia">
+                <option value="" disabled selected hidden>Compentência...</option>
+                <?php
+
+                                    foreach ($data as $competencia) {
+                                        echo "<option value=\"" .$competencia. "\">" . $competencia . "</option>";
+                }
+                ?>
+            </select>
+        </div>
+
+        <div>
+            <button type="submit">Importar</button>
+        </div>
+
+        <script>
+            $('.btn').on('click', function() {
+                $('.fileUpload').trigger('click');
+            });
+
+            $('.fileUpload').on('change', function() {
+                var fileName = $(this)[0].files[0].name;
+                $('#file').val(fileName);
+            });
+        </script>
+    </form>
+
+</body>
+</html>
