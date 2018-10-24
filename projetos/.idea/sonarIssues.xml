@@ -8,62 +8,12 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/arquivos/app/class/Functions.php">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/arquivos/app/class/Receitas.php">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/arquivos/app/css/main.css">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/arquivos/app/index.html">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/arquivos/app/teste.php">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/arquivos/app/teste2.html">
+        <entry key="$PROJECT_DIR$/arquivos/app/class/Sql.php">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/arquivos/app/teste2.php">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/arquivos/app/teste3.html">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/arquivos/app/teste4.html">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/arquivos/app/teste4.js">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/arquivos/app/teste5.html">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/arquivos/app/teste6.html">
           <value>
             <set />
           </value>
@@ -74,11 +24,6 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/arquivos/app/upload.php">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/template/index.html">
           <value>
             <set />
           </value>

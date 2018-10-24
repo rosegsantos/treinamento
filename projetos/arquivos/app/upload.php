@@ -21,8 +21,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $destination = $dirUploads . DIRECTORY_SEPARATOR . $file["name"];
     $expected_columns =  array("Conta",	"Cod. Terceiro", "Classificador", "Nome da Conta", "C/Custo", "Saldo Inicial", "Débito", "Crédito", "Saldo Final\r\n");
 
-    $competencia = "201808";
+    $competencia = $_POST['competencia'];
 
+    verificar se o tem lançamento para a mesma competencia
 
     if ($file["error"])
         throw new Exception("Erro: " . $file["error"]);
@@ -36,16 +37,15 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $inconsistencia = array_diff_assoc($fileColumns, $expected_columns);
 
         if(empty($inconsistencia)) {
+
+
             if(Functions::transferirArquivo($fileTmpName, $dirUploads, $destination)){
                 $alert = "Arquivo enviado com sucesso!";
-
 
                 // importar para o banco de dados
                 $gravarFontesReceitas = new Functions();
 
-
                 $gravarFontesReceitas->gravarFontesReceitas($destination, $competencia);
-
             }
 
 
@@ -62,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
         $alert = "Arquivo Inválido!";
     }
-    echo "<div class='mensagem'>$alert</div>";
+
 }
 
 

@@ -68,11 +68,6 @@ class Functions
         return $data;
     }
 
-    public static function retornarNomeArquivo($fileTmpFullPath){
-        $fileName = $_FILES[$fileTmpFullPath]["name"];
-
-    }
-
     public static function transferirArquivo($tmpPath, $dirUploads, $destination){
 
         /*
@@ -104,28 +99,28 @@ class Functions
 
         // ler o conteúdo do arquivo
         while(!feof($file)) {
-            // pegar os dados da linha
+            // pegar os data da linha
             $linha = fgets($file, 1024);
 
             // dividir as informações das celulas para poder salvar
-            $dados = explode(';', str_replace(array("\r","\n",'\r','\n'),'',  $linha));
+            $data = explode(';', str_replace(array("\r","\n",'\r','\n'),'',  $linha));
 
-            // verificar se os dados não é o cabeçalho ou não esta em branco
-            if($dados[0] != 'Conta' && !empty($linha)){
+            // verificar se os data não é o cabeçalho ou não esta em branco
+            if($data[0] != 'Conta' && !empty($linha)){
 
-                if( empty($dados[0])) $dados[0] = null;
-                if( empty($dados[1])) $dados[1] = null;
-                if( empty($dados[2])) $dados[2] = null;
-                if( empty($dados[3])) $dados[3] = null;
-                if( empty($dados[4])) $dados[4] = null;
-                if( empty($dados[5])) $dados[5] = null;
-                if( empty($dados[6])) $dados[6] = null;
-                if( empty($dados[7])) $dados[7] = null;
-                if( empty($dados[8])) $dados[8] = null;
+                if( empty($data[0])) $data[0] = null;
+                if( empty($data[1])) $data[1] = null;
+                if( empty($data[2])) $data[2] = null;
+                if( empty($data[3])) $data[3] = null;
+                if( empty($data[4])) $data[4] = null;
+                if( empty($data[5])) $data[5] = null;
+                if( empty($data[6])) $data[6] = null;
+                if( empty($data[7])) $data[7] = null;
+                if( empty($data[8])) $data[8] = null;
 
 
-                $receitas = new Receitas($competencia, $dados[0], $dados[1], $dados[2], $dados[3], $dados[4], $dados[5],  $dados[6] ,
-                    $dados[7] , $dados[8]);
+                $receitas = new Receitas($competencia, $data[0], $data[1], $data[2], $data[3], $data[4], $data[5],  $data[6] ,
+                    $data[7] , $data[8]);
                 $receitas->insert();
 
                 echo $receitas;

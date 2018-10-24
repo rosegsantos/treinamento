@@ -13,7 +13,7 @@
 body {
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.7;
   color: #828282;
   background: #fff;
@@ -87,6 +87,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav .top-menu {
   padding: 28px 0;
 }
+
 .fh5co-nav #fh5co-logo {
   font-size: 24px;
   margin: 0;
@@ -508,7 +509,8 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
   width: 100%;
-  float: left;
+  float: right;
+  alignment: left;
 }
 #fh5co-content .video, #fh5co-content .choose,
 #fh5co-consult .video,
@@ -1338,6 +1340,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #fa7272 !important;
   border-color: #fa7272 !important;
+  margin-left: 5px;
 }
 .btn-primary.btn-outline {
   background: transparent;
@@ -1468,8 +1471,8 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: none;
   background: transparent;
   border: 2px solid rgba(0, 0, 0, 0.1);
-  height: 54px;
-  font-size: 18px;
+  height: 40px;
+  font-size: 14px;
   font-weight: 300;
 }
 .form-control:active, .form-control:focus {

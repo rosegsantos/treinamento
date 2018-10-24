@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Get Selected File Name</title>
+
+
+
+
+    <style>
+        input[type='file'] {
+            display: none;
+            color : white;
+            position: absolute;
+        }
+
+        file-name:invalid { place: gray; }
+
+        .input-wrapper label {
+            background-color: white ;
+            border-radius: 30px;
+            border-color: grey;
+            color: black;
+            margin: 50px;
+            padding: 6px 30px;
+            text-align: justify-all;
+            position: absolute;
+
+        }
+
+        .input-wrapper label img{
+            position: absolute;
+            top: 2px;
+            left: 22px;
+
+        }
+
+        .input-wrapper label:hover {
+            background-color: white
+        }
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <script type="text/javascript" ></script>
+    <div class='input-wrapper'>
+
+        <label for='input-file'>
+            <img src="img/upload.png" alt="upload">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </label>
+
+        <input id='input-file'  type='file' value='' />
+        <span id='file-name' style="top: 800px;" ></span>
+
+    </div>
+
+    <script>
+        var $input    = document.getElementById('input-file'),
+            $fileName = document.getElementById('file-name');
+
+        $input.addEventListener('change', function(){
+            $fileName.textContent = this.value;
+        });
+    </script>
+</body>
+</html>

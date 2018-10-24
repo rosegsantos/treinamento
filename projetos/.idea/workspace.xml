@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="3" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="6f923e0f-b3d5-41e3-ae58-e61bfd47d252" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,24 +11,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/arquivos/app/index.html">
+      <file leaf-file-name="upload.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arquivos/app/upload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="139" column="20" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
+            <state relative-caret-position="43">
+              <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6#86#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="teste6.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arquivos/app/teste6.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="47" column="51" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -39,8 +26,53 @@
       <file leaf-file-name="upload.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arquivos/app/upload.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="95" selection-start-line="95" selection-end-line="95" />
+            <state relative-caret-position="1020">
+              <caret line="154" selection-start-line="154" selection-end-line="154" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arquivos/app/class/Functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="952">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="n#transferirArquivo#0;n#Functions#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arquivos/app/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20400">
+              <caret line="1200" column="48" selection-start-line="1200" selection-start-column="48" selection-end-line="1200" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flexslider.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arquivos/app/css/flexslider.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1411">
+              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sql.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arquivos/app/class/Sql.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -60,7 +92,26 @@
       <find>str_replace</find>
       <find>arquivo</find>
       <find>Free Legal Consultation</find>
+      <find>Won Cases</find>
+      <find>about</find>
+      <find>consultation</find>
+      <find>Practice Areas</find>
+      <find>contact</find>
+      <find>won case</find>
       <find>Legal Advice</find>
+      <find>Navigation</find>
+      <find>pra</find>
+      <find>BTN</find>
+      <find>select</find>
+      <find>input-file</find>
+      <find>FONT-SIZE</find>
+      <find>COMPET</find>
+      <find>form-</find>
+      <find>class=&quot;btn&quot;</find>
+      <find>file</find>
+      <find>hover</find>
+      <find>table</find>
+      <find>echo</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -68,20 +119,27 @@
       <list>
         <option value="$PROJECT_DIR$/arquivos/app/Functions.php" />
         <option value="$PROJECT_DIR$/arquivos/app/class/Receitas.php" />
-        <option value="$PROJECT_DIR$/arquivos/app/upload.php" />
         <option value="$PROJECT_DIR$/arquivos/app/teste2.php" />
         <option value="$PROJECT_DIR$/arquivos/app/teste.php" />
         <option value="$PROJECT_DIR$/arquivos/app/teste2.html" />
-        <option value="$PROJECT_DIR$/arquivos/app/class/Functions.php" />
         <option value="$PROJECT_DIR$/arquivos/app/teste3.html" />
         <option value="$PROJECT_DIR$/arquivos/app/teste4.js" />
         <option value="$PROJECT_DIR$/arquivos/app/teste4.html" />
-        <option value="$PROJECT_DIR$/arquivos/app/teste5.html" />
         <option value="$PROJECT_DIR$/arquivos/app/css/main.css" />
         <option value="$PROJECT_DIR$/template/index.html" />
-        <option value="$PROJECT_DIR$/arquivos/app/upload.html" />
         <option value="$PROJECT_DIR$/arquivos/app/teste6.html" />
+        <option value="$PROJECT_DIR$/arquivos/app/sameWindow.html" />
         <option value="$PROJECT_DIR$/arquivos/app/index.html" />
+        <option value="$PROJECT_DIR$/arquivos/app/ops.html" />
+        <option value="$PROJECT_DIR$/arquivos/app/aff.html" />
+        <option value="$PROJECT_DIR$/arquivos/app/teste5.html" />
+        <option value="$PROJECT_DIR$/arquivos/app/aff2.html" />
+        <option value="$PROJECT_DIR$/arquivos/app/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/arquivos/app/css/style.css" />
+        <option value="$PROJECT_DIR$/arquivos/app/class/Functions.php" />
+        <option value="$PROJECT_DIR$/arquivos/app/class/Sql.php" />
+        <option value="$PROJECT_DIR$/arquivos/app/upload.html" />
+        <option value="$PROJECT_DIR$/arquivos/app/upload.php" />
       </list>
     </option>
   </component>
@@ -103,11 +161,11 @@
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1040" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="705" />
+    <option name="y" value="126" />
+    <option name="width" value="837" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -131,6 +189,13 @@
               <item name="projetos" type="462c0819:PsiDirectoryNode" />
               <item name="arquivos" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projetos" type="462c0819:PsiDirectoryNode" />
+              <item name="arquivos" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projetos" type="b2602c69:ProjectViewProjectNode" />
@@ -177,15 +242,16 @@
       <workItem from="1539257013708" duration="23231000" />
       <workItem from="1539604141911" duration="18144000" />
       <workItem from="1539688790366" duration="10058000" />
-      <workItem from="1539699468843" duration="9846000" />
+      <workItem from="1539699468843" duration="30486000" />
+      <workItem from="1539865198856" duration="591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82340000" />
+    <option name="totallyTimeSpent" value="103571000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -194,7 +260,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38229167" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16197917" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
       <window_info anchor="right" id="Database" order="3" />
@@ -207,11 +273,36 @@
       <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Inspection Results" order="7" sideWeight="0.49739584" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Inspection Results" order="7" sideWeight="0.49739584" weight="0.35919234" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.05419766" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="15" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="SonarQube" order="8" sideWeight="0.49739584" weight="0.32943678" />
+      <window_info anchor="bottom" id="SonarLint" order="9" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38229167" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="11" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="12" sideWeight="0.49739584" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4984375" weight="0.35069075" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5015625" side_tool="true" weight="0.35069075" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -228,77 +319,20 @@
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/arquivos/app/class/Functions.php</url>
-          <line>138</line>
-          <option name="timeStamp" value="47" />
+          <url>file://$PROJECT_DIR$/arquivos/app/upload.php</url>
+          <line>23</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/arquivos/app/teste4.html</url>
-          <line>63</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/arquivos/app/teste4.html</url>
-          <line>64</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/arquivos/app/teste4.html</url>
-          <line>66</line>
-          <option name="timeStamp" value="51" />
+          <url>file://$PROJECT_DIR$/arquivos/app/index.html</url>
+          <line>106</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="53" />
+      <option name="time" value="58" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/arquivos/app/upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="22" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="83" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/class/Functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="63" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="63" />
-          <folding>
-            <element signature="n#verificarTipoArquivo#0;n#Functions#0;n#!!top" />
-            <element signature="n#retornarColunasArquivo#0;n#Functions#0;n#!!top" />
-            <element signature="n#transferirArquivo#0;n#Functions#0;n#!!top" />
-            <element signature="n#gravarFontesReceitas#0;n#Functions#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/teste4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/teste5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="78" selection-start-line="53" selection-start-column="78" selection-end-line="53" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arquivos/app/upload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -309,40 +343,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/teste3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="56" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/app/teste3.html" />
     <entry file="file://$PROJECT_DIR$/arquivos/app/class/Functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2465">
           <caret line="145" selection-start-line="145" selection-end-line="145" />
           <folding>
-            <element signature="n#verificarTipoArquivo#0;n#Functions#0;n#!!top" />
-            <element signature="n#retornarColunasArquivo#0;n#Functions#0;n#!!top" />
             <element signature="n#transferirArquivo#0;n#Functions#0;n#!!top" />
-            <element signature="n#gravarFontesReceitas#0;n#Functions#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/teste2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/teste.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/app/teste2.html" />
+    <entry file="file://$PROJECT_DIR$/arquivos/app/teste.php" />
     <entry file="file://$PROJECT_DIR$/arquivos/app/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -350,13 +363,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/app/login.html" />
     <entry file="file://$PROJECT_DIR$/arquivos/app/upload.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -375,10 +392,7 @@
         <state relative-caret-position="1972">
           <caret line="121" selection-start-line="121" selection-end-line="121" />
           <folding>
-            <element signature="n#verificarTipoArquivo#0;n#Functions#0;n#!!top" />
-            <element signature="n#retornarColunasArquivo#0;n#Functions#0;n#!!top" />
             <element signature="n#transferirArquivo#0;n#Functions#0;n#!!top" />
-            <element signature="n#gravarFontesReceitas#0;n#Functions#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -462,13 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/class/Sql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arquivos/app/class/Receitas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3094">
@@ -489,71 +496,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/teste2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="13" selection-start-line="9" selection-start-column="4" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/teste.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/teste4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/teste3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/teste4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/teste5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-365">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/app/teste2.html" />
+    <entry file="file://$PROJECT_DIR$/arquivos/app/login.html" />
+    <entry file="file://$PROJECT_DIR$/arquivos/app/teste.php" />
+    <entry file="file://$PROJECT_DIR$/arquivos/app/teste4.js" />
+    <entry file="file://$PROJECT_DIR$/arquivos/app/teste4.html" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
           <caret line="476" column="11" lean-forward="true" selection-start-line="476" selection-start-column="11" selection-end-line="476" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/class/Functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="70" column="63" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="63" />
-          <folding>
-            <element signature="n#verificarTipoArquivo#0;n#Functions#0;n#!!top" />
-            <element signature="n#retornarColunasArquivo#0;n#Functions#0;n#!!top" />
-            <element signature="n#transferirArquivo#0;n#Functions#0;n#!!top" />
-            <element signature="n#gravarFontesReceitas#0;n#Functions#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -564,48 +515,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
           <caret line="62" column="69" selection-start-line="62" selection-start-column="69" selection-end-line="62" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/app/teste6.html" />
+    <entry file="file://$PROJECT_DIR$/arquivos/app/sameWindow.html" />
+    <entry file="file://$PROJECT_DIR$/arquivos/app/aff.html" />
+    <entry file="file://$USER_HOME$/Desktop/Law Free Website Template - Free-CSS.com/law/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="186" column="31" lean-forward="true" selection-start-line="186" selection-start-column="31" selection-end-line="186" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/app/ops.html" />
+    <entry file="file://C:/Treinamento/PHP/upload/exemplo-01.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/app/teste3.html" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="324" column="22" selection-start-line="324" selection-start-column="22" selection-end-line="324" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/app/aff2.html" />
+    <entry file="file://$PROJECT_DIR$/arquivos/app/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="2166" column="1" selection-start-line="2166" selection-start-column="1" selection-end-line="2166" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/app/teste5.html" />
+    <entry file="file://$PROJECT_DIR$/template/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1923">
+          <caret line="172" column="1" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="53" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="53" />
           <folding>
-            <element signature="e#121#128#0" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#aside#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/app/css/flexslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/app/class/Sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/app/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20400">
+          <caret line="1200" column="48" selection-start-line="1200" selection-start-column="48" selection-end-line="1200" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/app/class/Functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="n#transferirArquivo#0;n#Functions#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arquivos/app/upload.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/teste6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="47" column="51" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="139" column="20" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
+        <state relative-caret-position="1020">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/app/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
