@@ -23,6 +23,36 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/modelos/.env">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/modelos/app/Categoria.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/modelos/config/database.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/modelos/database/migrations/2018_11_09_185133_create_categorias_table.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/modelos/database/migrations/2018_11_09_190814_create_produtos_table.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/modelos/routes/web.php">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/rotas/app/Http/Middleware/VerifyCsrfToken.php">
           <value>
             <set />
@@ -43,6 +73,71 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/vendas/.env">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/vendas/config/database.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/vendas/database/migrations/2018_11_07_171732_criar_tabela_produtos.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/vendas/database/migrations/2018_11_07_174556_criar_tabela_categorias.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/vendas/database/migrations/2018_11_07_181254_adicionar_categoria_id_em_produto.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/vendas/database/seeds/CategoriasSeeder.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/vendas/database/seeds/DatabaseSeeder.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/vendas/routes/web.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/views/app/Http/Controllers/ProdutoControlador.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/views/app/Providers/AppServiceProvider.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/views/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/views/resources/js/app.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/views/resources/views/components/meucomponente.blade.php">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/views/resources/views/email.blade.php">
           <value>
             <set />
@@ -58,12 +153,52 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/views/resources/views/foreach.blade.php">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/views/resources/views/layout/app.blade.php">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/views/resources/views/layout/meulayout.blade.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/views/resources/views/loop_for.php">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/views/resources/views/minhaview.blade.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/views/resources/views/mostrar_opcoes.blade.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/views/resources/views/opcoes.blade.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/views/resources/views/pagina.blade.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/views/resources/views/produtos.blade.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/views/resources/views/secao_produtos.blade.php">
           <value>
             <set />
           </value>

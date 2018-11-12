@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('filho');
+    return view('pagina');
 });
 
 Route::get('/primeiraview', function (){
@@ -47,5 +47,21 @@ Route::get('/email/{email}', function($email) {
     else
         return  view('erro');
 });
+
+
+Route::get('/produtos','ProdutoControlador@listar');
+
+Route::get('/secaoprodutos/{palavra}','ProdutoControlador@secaoprodutos');
+
+
+Route::get('/mostraropcoes','ProdutoControlador@mostrar_opcoes');
+
+Route::get('/opcoes/{opcao}', 'ProdutoControlador@opcoes');
+
+Route::get('/loop/for/{n}', 'ProdutoControlador@loopfor');
+
+Route::get('/loop/foreach', 'ProdutoControlador@loopforeach');
+
+
 
 
