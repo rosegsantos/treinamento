@@ -20,7 +20,6 @@ class ControladorCategoria extends Controller
         return view('novacategoria');
     }
 
-
     public function store(Request $request)
     {
         $cat = new Categoria();
